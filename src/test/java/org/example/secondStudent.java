@@ -8,7 +8,7 @@ public class secondStudent {
 
     public secondStudent() {
         Faker faker = new Faker();
-        this.studentId = faker.idNumber().valid(); // ან UUID.randomUUID().toString();
+        this.studentId = faker.idNumber().valid(); 
     }
 
     public String getStudentId() {
